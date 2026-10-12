@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.0 (2026-10-11)
+
+Pivot support.
+
+- Phase 1 now separates a migration (live product with real users or data: incremental plan, never a big-bang rewrite) from a pivot (direction changed, usually before or shortly after launch).
+- New Pivots section in Phase 2: weighs code size, usage, data model fit, and plumbing versus domain logic. Allows a partial rewrite when the MVP is not live, and sorts existing code into keep, adapt, and drop with file paths.
+- Roadmap covers pivots: the keep, adapt, and drop list, then ordered steps to the new MVP, with what gets deleted and when.
+- A pivot counts as a conflicting requirement for existing ADRs. Affected ADRs are marked Superseded with links to the new ones, never deleted.
+- Skill description mentions pivots so Archie triggers on them.
+
 ## 1.0.0 (2026-10-11)
 
 First public release.

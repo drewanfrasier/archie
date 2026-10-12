@@ -83,6 +83,7 @@ Ask the way you normally would:
 - "How should I build a booking platform for dog groomers?"
 - "Plan the architecture for this repo before we add multi-tenancy."
 - "We're outgrowing our Rails monolith. What should the migration look like?"
+- "We're pivoting from a marketplace to a SaaS tool halfway through the MVP. What should we keep?"
 - "Revisit the decision in ADR 0003. Our traffic changed."
 
 Say "just pick" at any point and Archie will choose sensible defaults and label them as assumptions.
