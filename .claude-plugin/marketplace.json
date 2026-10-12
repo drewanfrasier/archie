@@ -1,0 +1,14 @@
+{
+  "name": "archie",
+  "description": "Archie, a system architecture skill for Claude and other AI agents",
+  "owner": {
+    "name": "Andrew Frasier"
+  },
+  "plugins": [
+    {
+      "name": "archie",
+      "source": "./plugins/archie",
+      "description": "Interviews you briefly, then designs a software architecture: stack choices tied to requirements, data model, hard problems, competing designs, cost, and roadmap, written into your repo as decision records."
+    }
+  ]
+}
